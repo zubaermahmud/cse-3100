@@ -19,13 +19,18 @@ const BaseLayout = () => {
             </li>
           </ul>
         </nav>
+        <div>
+          <span>| </span>
+          <a href="\">Donate</a><span> | </span>
+		      <a href="\AboutUs">About US</a><span> | </span>
+			    <a href="\ContactUs">Contact US</a>
+          </div>
       </header>
       <main id="content">
         <Outlet />
       </main>
       <footer className="bg-light">
-        <p>© Copyright 2024</p>
-		    <a href="\AboutUs">About US</a>
+        <p>© Copyright 2024 </p>
       </footer>
     </div>
   );
