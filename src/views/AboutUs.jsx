@@ -4,34 +4,34 @@ import './AboutUs.css';
 export default function AboutUs() {
 	return (
 		<div className="aboutUsContainer">
-			<section className="aboutUsHeader">
-				<h2>About Us</h2>
-				<p>We have a dedicated to their job trying to do the best they can and make something special.</p>
-			</section>
-			<section className="Content">
-				<div className="team">
-					<h3 className="ourTeam">Our Team</h3>
-					<div className="teamMembers">
-						<div className="teamMember">
-						<h4>John Doe</h4>
-						  <p>CEO & Founder</p>
-						</div>
-						<div className="teamMember">
-						<h4>Alex Summer</h4>
-						  <p>Developer</p>
-						</div>
-						<div className="teamMember">
-						<h4>James Gordon</h4>
-						  <p>Developer</p>
-						</div>
+			<div className='OurMission'>
+				<h3>Our Mission</h3>
+				<p>Our mission is to craft innovative, reliable, and user-centric software solutions that drive success, streamline processes, and empower businesses to achieve their goals with cutting-edge technology.</p>
+			</div>
+			<div className='ourHistory'>
+				<h3>Our History</h3>
+				<p>We are 2 years old company with skilled member trying to do our best.</p>
+			</div>
+			<div className='teamContainer'>
+				<h3>Our Team</h3>
+				<div className='ourTeam'>
+					<div className='team-member'>
+						<div class="member-photo"></div>
+						<div class="member-name">Bob Doe</div>
+						<div class="member-role">Director</div>
+					</div>
+					<div className='team-member'>
+						<div class="member-photo"></div>
+						<div class="member-name">Bob Doe</div>
+						<div class="member-role">Director</div>
+					</div>
+					<div className='team-member'>
+						<div class="member-photo"></div>
+						<div class="member-name">Bob Doe</div>
+						<div class="member-role">Director</div>
 					</div>
 				</div>
-				
-				<div className="Goal">
-				  <h3 className='ourGoal'>Our Goal</h3>
-				  <p>Our goal is to provide the best service.</p>
-				</div>
-			</section>
+			</div>
 		</div>
 	);
 };
